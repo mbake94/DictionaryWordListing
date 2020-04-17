@@ -24,7 +24,7 @@ public class DictionaryWordListing {
 //  Print out which prompt is being asked (first, second, third,...)
 
         for (int i = 0; i < ten.length; i++) {
-            System.out.printf("Please enter you %s word: ", num[i]);
+            System.out.printf("Please enter your %s word: ", num[i]);
             Scanner keybd = new Scanner(System.in);
             ten[i] = keybd.next();
         }
@@ -56,6 +56,19 @@ public class DictionaryWordListing {
             }
         }
      System.out.println("The strings in descending order are:   " + Arrays.toString(ten));
+
+//        String vowel[] = {"a", "e", "i", "o", "u"};
+//        for (int v = 0; v < ten.length; v++) {
+//            for (int i = v + 1; i < ten.length; i++) {
+//
+//                    holder = ten[i];
+//                    ten[v] = ten[i];
+//                    ten[i] = holder;
+//
+//            }
+//        }
+
+
     }
 }
 
